@@ -1,0 +1,28 @@
+{
+    "name": "tyjow/nova-custom-boolean",
+    "description": "Tyjow Nova Custom Boolean",
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Jonathan Platon",
+            "email": "platon.jonathan@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tyjow\\NovaCustomBoolean\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tyjow\\NovaCustomBoolean\\FieldServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
